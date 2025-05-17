@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="icon.png" alt="Extension Icon" width="128"/>
+  <img src="icon.png" alt="Extension Icon" width="128"/><br>
+  <caption>I was vibe coded 😁</caption>
 </p>
 
 ---
