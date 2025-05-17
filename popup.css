@@ -1,0 +1,107 @@
+/* popup.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 16px;
+  width: 300px;
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem; /* 16px */
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem; /* 16px */
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+p#status {
+  margin-top: 16px;
+  font-size: 0.875rem; /* 14px */
+  min-height: 1.2em; /* Reserve space for status message */
+}
+
+
+/* Light Mode (Tron Blue Inspired) */
+body {
+  /*background-color: #E0F7FA; /* Very light cyan */
+  background-color: #f4fcfb;
+  color: #004D40; /* Dark teal/blue */
+}
+
+input[type="text"] {
+  background-color: #B2EBF2; /* Light cyan */
+  border-color: #4DD0E1; /* Medium cyan */
+  color: #004D40; /* Dark teal/blue */
+}
+
+input[type="text"]:focus {
+  border-color: #00B8D4; /* Vibrant cyan */
+  outline: none;
+}
+
+button {
+  background-color: #00B8D4; /* Vibrant cyan */
+  color: #FFFFFF; /* White */
+}
+
+button:hover {
+  background-color: #0097A7; /* Darker vibrant cyan */
+}
+
+p#status {
+  color: #00796B; /* Medium dark teal/blue */
+}
+
+/* Dark Mode (Tron Blue Inspired) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #001F24; /* Very dark cyan/blue */
+    color: #B2FEF7; /* Light cyan */
+  }
+
+  input[type="text"] {
+    background-color: #00343D; /* Dark cyan/blue */
+    border-color: #00798C; /* Medium dark cyan/blue */
+    color: #B2FEF7; /* Light cyan */
+  }
+
+  input[type="text"]:focus {
+    border-color: #00E5FF; /* Bright Tron Blue */
+  }
+
+  button {
+    background-color: #00E5FF; /* Bright Tron Blue */
+    color: #001F24; /* Very dark cyan/blue for contrast */
+  }
+
+  button:hover {
+    background-color: #60FFFF; /* Brighter Tron Blue */
+  }
+
+  p#status {
+    color: #80DEEA; /* Medium light cyan */
+  }
+}
